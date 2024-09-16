@@ -1,0 +1,15 @@
+.lead {
+  margin-top: -105px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/landing_page_art.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+@media screen and (max-width: 600px) {
+  .lead {
+    margin-top: -50px;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > label,
+.container > div {
+  margin-bottom: 10px;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.imagesContainer > div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

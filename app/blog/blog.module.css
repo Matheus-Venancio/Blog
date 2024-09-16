@@ -1,0 +1,37 @@
+.bgContainer {
+  position: relative;
+  height: 380px;
+}
+
+.blogBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 380px;
+  background-image: url("/blog_bg.jpeg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: cover;
+}
+.blogBg2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 380px;
+  background-image: url("/blog_bg2.jpeg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .blogBg {
+    width: 100%;
+  }
+  .blogBg2 {
+    display: none;
+  }
+}

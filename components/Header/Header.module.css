@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-inline: 30px;
+  /* background-color: #001b76; */
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative; /* Ensure text is on top of pseudo-element */
+}
+
+.header .navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .navigation ul li {
+  margin-right: 20px;
+}
+
+.header .navigation ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}

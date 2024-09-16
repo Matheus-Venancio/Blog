@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > label, .container > div {
+  margin-bottom: 10px;
+}

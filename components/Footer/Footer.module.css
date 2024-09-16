@@ -1,0 +1,48 @@
+/* Footer.module.css */
+.container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(28, 28, 135);
+  padding: 20px;
+  text-align: center;
+}
+
+.container .copyright {
+  color: #ffffff;
+}
+
+.container .address {
+  color: #f5f5f5;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.container .contact {
+  color: #f5f5f5;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.container .social-media {
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .social-media a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container .social-media img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-bottom: 60px;
+  }
+}

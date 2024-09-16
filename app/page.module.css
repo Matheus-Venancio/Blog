@@ -1,0 +1,66 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  max-width: 1060px;
+  margin: auto;
+  padding-inline: 20px;
+  padding-bottom: 50px;
+}
+
+.blogContainer {
+  margin-top: 30px;
+  display: flex;
+}
+
+.reportsContainer {
+  margin-top: 60px;
+  display: flex;
+}
+
+.reportsDescription {
+  margin-left: 30px;
+  max-width: 615px;
+  text-align: justify;
+}
+
+.blogContainer > a {
+  margin-right: 50px;
+}
+
+.blogContainer > a:last-child {
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .blogContainer > a {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .mainContainer {
+    padding-inline: 10px;
+  }
+
+  .blogContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blogContainer > a {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .reportsContainer {
+    flex-direction: column;
+  }
+
+  .reportsDescription {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}

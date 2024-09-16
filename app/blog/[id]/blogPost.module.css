@@ -1,0 +1,55 @@
+.article {
+  flex: 1;
+  max-width: 710px;
+  margin: auto;
+}
+
+.article > h1,
+.article > h2,
+.article > h3,
+.article > h4,
+.article > h5,
+.article > h6 {
+  margin-block: 5px;
+}
+
+.article > h1 {
+  font-size: xx-large;
+}
+
+.article > h2 {
+  font-size: x-large;
+}
+
+.article > h3 {
+  font-size: larger;
+}
+
+.article > h4 {
+  font-size: large;
+}
+
+.article > p {
+  margin-bottom: 25px;
+}
+
+.article > ul {
+  list-style: disc;
+}
+
+.article > ol {
+  list-style: decimal;
+}
+
+.article > #text {
+  display: none;
+}
+
+.article > ul,
+.article > ol {
+  list-style-position: inside;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: large;
+}

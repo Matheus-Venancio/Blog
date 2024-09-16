@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.infoContainer > h1,
+.infoContainer > h4,
+.infoContainer > p {
+  margin-block: 10px;
+}
+
+.formContainer {
+  flex: 1;
+  min-width: 290px;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
